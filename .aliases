@@ -35,7 +35,7 @@ fi
 alias c='pygmentize -O style=monokai -f console256 -g'
 
 # git
-alias git='hub'
+# alias git='hub'
 alias gb='git branch -v'
 alias gst='git status -sb'
 alias gc='git commit -am'
