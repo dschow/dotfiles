@@ -6,6 +6,13 @@ for file in ~/.{extra,bash_prompt,exports,aliases,functions}; do
 done
 unset file
 
+export GOPATH=$HOME/Go # don't forget to change your path correctly!
+export GOROOT=/usr/local/opt/go/libexec
+
+export PATH=$PATH:~/Library/Python/2.7/bin
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:$GOROOT/bin
+
 # Prefer US English and use UTF-8
 export LC_ALL="en_US.UTF-8"
 export LANG="en_US"
